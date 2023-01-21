@@ -8,8 +8,8 @@
 
  /*Carregando scripts - folhas de estilo, js, bootstrap,etc. filemtime = só na hora de desenvolver o tema, remover quando terminado e por no lugar só o nro da versão*/
 function dani_terapeuta_scripts(){
-wp_enqueue_script('bootstrap-js', get_template_directory_uri().'./inc/bootstrap.bundle.min.js', array(), '5.0', false);
-wp_enqueue_style('bootstrap-css', get_template_directory_uri().'./inc/bootstrap.min.css', array(), '5.0', 'all');
+wp_enqueue_script('bootstrap-js', get_template_directory_uri().'./inc/bootstrap.bundle.min.js', array(), '5.0.2', false);
+wp_enqueue_style('bootstrap-css', get_template_directory_uri().'./inc/bootstrap.min.css', array(), '5.0.2', 'all');
 //Theme main stylesheet
 wp_enqueue_style('dani-style', get_stylesheet_uri(), array(), filemtime(get_template_directory().'/style.css'), 'all');
 }
