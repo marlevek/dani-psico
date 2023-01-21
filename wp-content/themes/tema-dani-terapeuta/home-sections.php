@@ -1,5 +1,8 @@
 <section id="section-1" class="home-section">
-      
+      <div class="container">
+    <h1 class="text-white terapeuta">Danielle Zagonel Machado</h1>
+    <h2 class="nome text-white">Terapeuta</h2>
+    </div>
 </section>
 
 <section id="section-2" class="home-section">
@@ -16,5 +19,8 @@
 </section>
 
 <section id="section-3" class="home-section">
-    <!-- Conteúdo da seção 3 -->
+   <h1>TERAPIAS</h1>
+</section>
+<section id="section-4" class="home-section">
+    <h1>FORMULÁRIO DE CONTATO</h1>
 </section>
