@@ -12,6 +12,7 @@ Tags: terapeuta, terapia, psicologia, custom-menu, custom-logo, featured-images,
 
 body, html {
     height: 100%;
+    overflow-x: hidden;
   }
 
 /*SECTION-1*/
@@ -26,6 +27,11 @@ body, html {
 }
 
 #section-2{
-    background-color: rgb(3, 127, 253);
+    background-image: url('http://localhost/dani-psico/wp-content/uploads/2023/01/imagem-home-secao-2.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
     min-height: 900px;
+    
 }
