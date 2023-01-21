@@ -48,39 +48,39 @@ msgid "Site Editor"
 msgstr "Editor do site"
 
 #. translators: 1: Learn WordPress link.
-#: wp-admin/about.php:518
+#: wp-admin/about.php:549
 msgid "Explore <a href=\"%s\">learn.wordpress.org</a> for tutorial videos, online workshops, courses, and lesson plans for Meetup organizers, including new features in WordPress."
 msgstr "Explore o <a href=\"%s\">learn.wordpress.org</a> para vídeos tutoriais, workshops online, cursos e planos de aula para organizadores de meetups, incluindo novos recursos no WordPress."
 
-#: wp-admin/about.php:456
+#: wp-admin/about.php:487
 msgid "https://wordpress.org/plugins/performance-lab/"
 msgstr "https://br.wordpress.org/plugins/performance-lab/"
 
 #. translators: %s: Link to fluid typography demo.
-#: wp-admin/about.php:185
+#: wp-admin/about.php:216
 msgid "<a href=\"%s\">Fluid typography</a> lets you define font sizes that adapt for easy reading in any screen size."
 msgstr "<a href=\"%s\">Tipografia fluída</a> permite que você defina tamanhos de fonte que se adaptam para facilitar a  leitura em qualquer tamanho de tela."
 
-#: wp-admin/about.php:180
+#: wp-admin/about.php:211
 msgid "More responsive text with fluid typography"
 msgstr "Texto mais responsivo com tipografia fluída"
 
-#: wp-admin/about.php:478
+#: wp-admin/about.php:509
 msgid "Combine it with block locking options for even more advanced control over your blocks."
 msgstr "Combine-o com as opções de travamento de bloco para um controle ainda mais avançado sobre seus blocos."
 
 #. translators: %s: Link to content locking dev note.
-#: wp-admin/about.php:473
+#: wp-admin/about.php:504
 msgid "Thanks to <a href=\"%s\">content-only editing settings</a>, layouts can be locked within container blocks. In a content-only block, its children are invisible to the List View and entirely uneditable. So you control the layout while your writers can focus on the content."
 msgstr "Graças as <a href=\"%s\">configurações de edição somente de conteúdo</a>, os layouts podem ser bloqueados em blocos de contêiner. Em um bloco somente de conteúdo, seus descendentes são invisíveis para o modo de exibição de lista e totalmente não editáveis. Assim, você controla o layout enquanto quem escreve pode se concentrar no conteúdo."
 
-#: wp-admin/about.php:468
+#: wp-admin/about.php:499
 msgid "Content-only editing support for container blocks"
 msgstr "Suporte de edição somente de conteúdo para blocos de contêiner"
 
 #. translators: %s: Link to install Performance Lab plugin if permitted,
 #. otherwise link to plugin on WordPress.org.
-#: wp-admin/about.php:455
+#: wp-admin/about.php:486
 msgid "Be among the first to get the latest improvements by adding the <a href=\"%s\">Performance Lab plugin</a> to your WordPress test site or sandbox."
 msgstr "Seja uma das primeiras pessoas a obter as melhorias mais recentes adicionando o <a href=\"%s\">plugin Performance Lab</a> ao seu site de teste do WordPress ou sandbox."
 
@@ -88,206 +88,206 @@ msgstr "Seja uma das primeiras pessoas a obter as melhorias mais recentes adicio
 #. note, 3: code-formatted "WP_Query" linked to dev note, 4: Block registration
 #. performance dev note, 5: Site health checks dev note; 6: code-formatted
 #. "async", 7: Performance field guide.
-#: wp-admin/about.php:440
+#: wp-admin/about.php:471
 msgid "WordPress 6.1 resolved more than 25 tickets dedicated to enhancing performance. From the  <a href=\"%1$s\">REST API</a> to <a href=\"%2$s\">multisite</a>, %3$s to <a href=\"%4$s\">core block registration</a>, and <a href=\"%5$s\">new Site Health checks</a> to the addition of the %6$s attribute to images, there are performance improvements for every type of site. A full breakdown can be found in the <a href=\"%7$s\">Performance Field Guide</a>."
 msgstr "O WordPress 6.1 resolveu mais de 25 tickets dedicados a melhorar o desempenho. Da <a href=\"%1$s\">API REST</a> ao <a href=\"%2$s\">multisite</a>, %3$s além <a href=\"%4$s\">do registro de bloco dos arquivos básicos</a>, <a href=\"%5$s\">novas verificações de diagnóstico do site</a> e adição do atributo %6$s às imagens. Há melhorias de desempenho para cada tipo de site. Um detalhamento completo pode ser encontrado no <a href=\"%7$s\">guia de desempenho</a>."
 
-#: wp-admin/about.php:435
+#: wp-admin/about.php:466
 msgid "Performance highlights"
 msgstr "Destaques de desempenho"
 
 #. translators: %s: Link to spacing presets dev note.
-#: wp-admin/about.php:419
+#: wp-admin/about.php:450
 msgid "Save time and help avoid hard-coding a values into a theme with <a href=\"%s\">preset margin and padding values for multiple blocks</a>."
 msgstr "Economize tempo e ajude a evitar a codificação de valores em um tema com <a href=\"%s\">valores predefinidos de margem e recuo para vários blocos</a>."
 
-#: wp-admin/about.php:414
+#: wp-admin/about.php:445
 msgid "Spacing presets for faster, consistent design"
 msgstr "Predefinições de espaçamento para um design mais rápido e consistente"
 
 #. translators: %s: Link to theme.json filters dev note.
-#: wp-admin/about.php:401
+#: wp-admin/about.php:432
 msgid "<a href=\"%s\">Leverage filters</a> in the Styles sidebar to control settings at all four levels of your site—core, theme, user, or block, from less to more specific."
 msgstr "<a href=\"%s\">Aproveite os filtros</a> na barra lateral Estilos para controlar as configurações em todos os quatro níveis do seu site: arquivos básicos, tema, usuário ou bloco, do menos ao mais específico."
 
-#: wp-admin/about.php:396
+#: wp-admin/about.php:427
 msgid "Filters for all your styles"
 msgstr "Filtros para todos os seus estilos"
 
 #. translators: %s: Link to query loop dev note.
-#: wp-admin/about.php:379
+#: wp-admin/about.php:410
 msgid "<a href=\"%s\">New filters</a> let Query Block variations support custom queries for more powerful variations and advanced hierarchical post types filtering options."
 msgstr "<a href=\"%s\">Novos filtros</a> permitem que as variações do bloco de consulta ofereçam suporte a consultas personalizadas para variações mais poderosas e opções avançadas de filtragem de tipos de post hierárquico."
 
-#: wp-admin/about.php:374
+#: wp-admin/about.php:405
 msgid "Expanded support for Query Loop blocks"
 msgstr "Suporte expandido para blocos de loop de consulta"
 
 #. translators: 1: Link to block-based template parts in classic themes dev
 #. note, 2: Folder name.
-#: wp-admin/about.php:360
+#: wp-admin/about.php:391
 msgid "<a href=\"%1$s\">Block template parts can now be defined in classic themes</a> by adding the appropriate HTML files to the %2$s directory at the root of the theme."
 msgstr "<a href=\"%1$s\">As partes de modelo de bloco agora podem ser definidas em temas clássicos</a> adicionando os arquivos HTML apropriados ao diretório %2$s na raiz do tema."
 
-#: wp-admin/about.php:355
+#: wp-admin/about.php:386
 msgid "Block template parts in classic themes"
 msgstr "Partes de modelo de bloco em temas clássicos"
 
 #. translators: %s: Link to layout support refactor dev note.
-#: wp-admin/about.php:338
+#: wp-admin/about.php:369
 msgid "The default content dimensions provided by themes can now be overridden in the Styles Sidebar, giving site builders better control over full-width content. Developers have <a href=\"%s\">fine-grained control over these controls</a>."
 msgstr "As dimensões de conteúdo padrão fornecidas pelos temas agora podem ser substituídas na barra lateral Estilos, dando aos criadores de sites melhor controle sobre o conteúdo de largura total. Os desenvolvedores têm <a href=\"%s\">controle refinado sobre esses controles</a>."
 
-#: wp-admin/about.php:333
+#: wp-admin/about.php:364
 msgid "Continued evolution of layout options"
 msgstr "Evolução contínua das opções de layout"
 
 #. translators: %s: Link to styling elements dev note.
-#: wp-admin/about.php:320
+#: wp-admin/about.php:351
 msgid "Updates include <a href=\"%s\">styling elements</a> like buttons, citations, and links globally; controlling hover, active, and focus states for links using theme.json (not available to control in the interface yet); and customizing outline support for blocks and elements, among other features."
 msgstr "As atualizações incluem <a href=\"%s\">elementos de estilo</a> como botões, citações e links globais, controle dos estados hover, ativo e em foco para links usando theme.json (ainda não disponível para controle na interface) e personalização do suporte de contorno para blocos e elementos, entre outros recursos."
 
-#: wp-admin/about.php:315
+#: wp-admin/about.php:346
 msgid "Updated interface options and features"
 msgstr "Opções e recursos de interface atualizados"
 
-#: wp-admin/about.php:302
+#: wp-admin/about.php:333
 msgid "A new modal design offers a background blur effect, making it easier to focus on the task at hand."
 msgstr "Um novo design modal oferece um efeito de desfoque de fundo, facilitando o foco na tarefa em questão."
 
 #. translators: %s: "General Settings" admin page title, linked to the page if
 #. the user can edit options.
-#: wp-admin/about.php:297
+#: wp-admin/about.php:328
 msgid "The site tagline is empty by default in new sites but can be modified in %s."
 msgstr "O resumo do site está vazio por padrão em novos sites, mas pode ser modificado em %s."
 
-#: wp-admin/about.php:292
+#: wp-admin/about.php:323
 msgid "6.1 includes a new time-to-read feature showing content authors the approximate time-to-read values for pages, posts, and custom post types."
 msgstr "6.1 inclui um novo recurso de tempo de leitura que mostra aos autores de conteúdo os valores aproximados de tempo de leitura para páginas, posts e tipos de post personalizados."
 
-#: wp-admin/about.php:291
+#: wp-admin/about.php:322
 msgid "Other notes of interest"
 msgstr "Outras notas de interesse"
 
 #. translators: %s: Link to accessibility improvements dev note.
-#: wp-admin/about.php:278
+#: wp-admin/about.php:309
 msgid "More than 40 improvements in accessibility include resolving focus loss problems in the editor, improving form labels and audible messages, making alternative text easier to edit, and fixing the sub-menu overlap in the expanded admin side navigation at smaller screen sizes and higher zoom levels. Learn more about <a href=\"%s\">accessibility in WordPress</a>."
 msgstr "Mais de 40 melhorias na acessibilidade incluem resolver problemas de perda de foco no editor, melhorar rótulos de formulários e mensagens audíveis, facilitar a edição de texto alternativo e corrigir a sobreposição de submenus na navegação expandida na parte administrativa em tamanhos de tela menores e níveis de zoom mais altos. Saiba mais sobre <a href=\"%s\">acessibilidade no WordPress</a>."
 
-#: wp-admin/about.php:273
+#: wp-admin/about.php:304
 msgid "Improved admin and editor accessibility"
 msgstr "Melhorias na acessibilidade do administrador e do editor"
 
 #. translators: %s: Link style engine dev note.
-#: wp-admin/about.php:257
+#: wp-admin/about.php:288
 msgid "The CSS rules for margin, padding, typography, colors, and borders within the <a href=\"%s\">styles engine</a> are now all in one place, reducing time spent on layout-specific tasks and helps to generate semantic class names."
 msgstr "As regras CSS para margem, recuo, tipografia, cores e bordas no <a href=\"%s\">mecanismo de estilos</a> agora estão em um só lugar, reduzindo o tempo gasto em tarefas específicas de layout e ajudando a gerar nomes de classes semânticas."
 
-#: wp-admin/about.php:252
+#: wp-admin/about.php:283
 msgid "A streamlined style system"
 msgstr "Um sistema de estilo simplificado"
 
 #. translators: %s: Link to block editor preferences dev note.
-#: wp-admin/about.php:239
+#: wp-admin/about.php:270
 msgid "Site Editor settings are now <a href=\"%s\">persistent for each user</a>. This means your settings will now be consistent across browsers and devices."
 msgstr "As configurações do Editor de sites agora são <a href=\"%s\">persistentes para cada usuário</a>. Isso significa que suas configurações agora serão consistentes em navegadores e dispositivos."
 
-#: wp-admin/about.php:234
+#: wp-admin/about.php:265
 msgid "Keep your Site Editor settings for later"
 msgstr "Mantenha as configurações do seu Editor de site para mais tarde"
 
-#: wp-admin/about.php:219
+#: wp-admin/about.php:250
 msgid "https://wordpress.org/themes/tags/full-site-editing/"
 msgstr "https://wordpress.org/themes/tags/full-site-editing/"
 
 #. translators: %s: Link to Block Themes on WordPress.org.
-#: wp-admin/about.php:218
+#: wp-admin/about.php:249
 msgid "The Themes Directory has <a href=\"%s\">a filter for block themes</a>, and a pattern preview gives a better sense of what the theme might look like while exploring different themes and patterns."
 msgstr "O diretório de temas tem <a href=\"%s\">um filtro para temas de bloco</a> e uma visualização de padrão dá uma melhor noção de como o tema pode parecer ao explorar diferentes temas e padrões."
 
-#: wp-admin/about.php:213
+#: wp-admin/about.php:244
 msgid "Find block themes faster"
 msgstr "Encontre temas de bloco mais rapidamente"
 
-#: wp-admin/about.php:204
+#: wp-admin/about.php:235
 msgid "In WordPress 6.0, when you created a new page, you would see suggested patterns so you did not have to start with a blank page. In 6.1, you will also see the starter patterns modal when you create a new instance of any post type."
 msgstr "No WordPress 6.0, ao criar uma nova página, você veria padrões sugeridos para não precisar começar com uma página em branco. Na versão 6.1, você também verá o modal de padrões iniciais ao criar uma nova instância de qualquer tipo de post."
 
-#: wp-admin/about.php:203
+#: wp-admin/about.php:234
 msgid "Add starter patterns to any post type"
 msgstr "Adicione padrões iniciais para qualquer tipo de post"
 
-#: wp-admin/about.php:174
+#: wp-admin/about.php:205
 msgid "The List and Quote blocks now support inner blocks, allowing for more flexible and rich compositions like adding headings inside your Quote blocks."
 msgstr "O bloco de Lista e Citação agora suportam blocos internos, permitindo composições mais flexíveis e ricas, como adicionar títulos dentro de seus blocos de Citação."
 
-#: wp-admin/about.php:173
+#: wp-admin/about.php:204
 msgid "Compose richer lists and quotes with inner blocks"
 msgstr "Componha listas e citações mais ricas com blocos internos"
 
-#: wp-admin/about.php:167
+#: wp-admin/about.php:198
 msgid "Various blocks have improved placeholders that reflect customization options to help you design your site and its content. For example, the Image block placeholder displays custom borders and duotone filters even before selecting an image."
 msgstr "Vários blocos têm marcadores de posição aprimorados que refletem opções de personalização para ajudar você a projetar seu site e seu conteúdo. Por exemplo, o espaço reservado do bloco de imagem exibe bordas personalizadas e filtros duotônicos mesmo antes de selecionar uma imagem."
 
-#: wp-admin/about.php:166
+#: wp-admin/about.php:197
 msgid "Improved block placeholders"
 msgstr "Melhorias nos marcadores de posição dos blocos"
 
-#: wp-admin/about.php:157
+#: wp-admin/about.php:188
 msgid "When locking blocks, a new toggle lets you apply your lock settings to all the blocks in a containing block like the group, cover, and column blocks."
 msgstr "Ao travar blocos, um novo alternador permite que você aplique suas configurações de travamento a todos os blocos em um bloco contido, como os blocos de grupo, cobertura e coluna."
 
-#: wp-admin/about.php:156
+#: wp-admin/about.php:187
 msgid "One-click lock settings for all inner blocks"
 msgstr "Configurações de bloqueio com um clique para todos os blocos internos"
 
-#: wp-admin/about.php:150
+#: wp-admin/about.php:181
 msgid "A cleaner, better-organized display helps you easily view and manage important post and page settings, especially the template picker and scheduler."
 msgstr "Uma exibição mais limpa e melhor organizada ajuda você a visualizar e gerenciar facilmente as configurações importantes de post e página, especialmente o seletor de modelo e o agendador."
 
-#: wp-admin/about.php:149
+#: wp-admin/about.php:180
 msgid "Improved layout and visualization of document settings"
 msgstr "Melhorias no layout e na visualização das configurações do documento"
 
 #. translators: %s: Link to navigation block fallback dev note.
-#: wp-admin/about.php:131
+#: wp-admin/about.php:162
 msgid "<a href=\"%s\">New fallback options</a> in the navigation block mean you can edit the menu that’s open; no searching needed. Plus, the controls for choosing and working on menus have their own place in the block settings. The mobile menu system also gets an upgrade with new features, including different icon options, to make the menu yours."
 msgstr "<a href=\"%s\">Novas opções de contingência</a> no bloco de navegação significam que você pode editar o menu que está aberto, não é necessário pesquisar. Além disso, os controles para escolher e trabalhar nos menus têm seu próprio lugar nas configurações do bloco. O sistema de menu para dispositivo móvel também recebe uma atualização com novos recursos, incluindo diferentes opções de ícones, para tornar o menu seu."
 
-#: wp-admin/about.php:126
+#: wp-admin/about.php:157
 msgid "Menus just got easier to create and manage"
 msgstr "Os menus ficaram mais fáceis de criar e gerenciar"
 
 #. translators: %s: Link to layout support refactor dev note.
-#: wp-admin/about.php:116
+#: wp-admin/about.php:147
 msgid "Upgrades to the <a href=\"%s\">controls for design elements and blocks</a> make the layout and site-building process more consistent, complete, and intuitive."
 msgstr "Atualizações nos <a href=\"%s\">controles para elementos de design e blocos</a> tornam o layout e o processo de criação de sites mais consistentes, completos e intuitivos."
 
-#: wp-admin/about.php:111
+#: wp-admin/about.php:142
 msgid "More consistency and control across design tools"
 msgstr "Mais consistência e controle nas ferramentas de design"
 
 #. translators: 1: Link to template options dev note, 2: Link to template
 #. creation dev note.
-#: wp-admin/about.php:90
+#: wp-admin/about.php:121
 msgid "<a href=\"%1$s\">New templates</a> include a custom template for posts and pages in the Site Editor. Search-and-replace tools speed up the design of <a href=\"%2$s\">template parts</a>."
 msgstr "<a href=\"%1$s\">Novos modelos</a> incluem um modelo personalizado para posts e páginas no Editor do site. As ferramentas de pesquisa e substituição aceleram o design de <a href=\"%2$s\">partes de modelo</a>."
 
-#: wp-admin/about.php:85
+#: wp-admin/about.php:116
 msgid "A better creator experience with refined and additional templates"
 msgstr "Uma melhor experiência para quem cria com modelos refinados e adicionais"
 
 #. translators: 1: Variation announcement post URL, 2: Accessibility-ready
 #. handbook page.
-#: wp-admin/about.php:74
+#: wp-admin/about.php:105
 msgid "Building on the foundational elements in the 5.9 and 6.0 releases for block themes and style variations, the new default theme, Twenty Twenty-Three, includes <a href=\"%1$s\">10 different styles</a> and is &#147;<a href=\"%2$s\">Accessibility Ready</a>&#148;."
 msgstr "Com base nos elementos fundamentais das versões 5.9 e 6.0 para temas de bloco e variações de estilo, o novo tema padrão, Twenty Twenty-Three, inclui <a href=\"%1$s\">10 estilos diferentes</a> e está &#147;<a href=\"%2$s\">com suporte a acessibilidade</a>&#148;."
 
-#: wp-admin/about.php:69
+#: wp-admin/about.php:100
 msgid "A new default theme powered by 10 distinct style variations"
 msgstr "Um novo tema padrão com 10 variações de estilo exclusivas"
 
-#: wp-admin/about.php:57
+#: wp-admin/about.php:88
 msgid "This page highlights some of the most significant changes to the product since the May 2022 release of WordPress 6.0. You will also find resources for developers and anyone seeking a deeper understanding of WordPress."
 msgstr "O WordPress 6.1 inclui mais de 2.000 atualizações. Esta página destaca algumas das mudanças mais significativas no produto desde a versão de maio de 2022 do WordPress 6.0. Você também encontrará recursos para desenvolvedores e qualquer pessoa que busque um entendimento mais profundo do WordPress."
 
@@ -618,40 +618,40 @@ msgid "Reach out to WordPress Core developers to ensure you'll never have this p
 msgstr "Entre em contato com os desenvolvedores dos arquivos básicos do WordPress para garantir que nunca mais tenha esse problema."
 
 #. translators: 1: WordPress version number, 2: Link to update WordPress
-#: wp-admin/about.php:611
+#: wp-admin/about.php:642
 msgid "Important! Your version of WordPress (%1$s) will stop receiving security updates in the near future. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
 msgstr "Importante! Sua versão do WordPress (%1$s) irá parar de receber atualizações de segurança em breve. Para manter seu site seguro, <a href=\"%2$s\">atualize para a mais recente versão do WordPress</a>."
 
 #. translators: 1: WordPress version number, 2: Link to update WordPress
-#: wp-admin/about.php:608
+#: wp-admin/about.php:639
 msgid "Important! Your version of WordPress (%1$s) is no longer supported, you will not receive any security updates for your website. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
 msgstr "Importante! Sua versão do WordPress (%1$s) não é mais suportada e você não receberá mais atualizações de segurança para seu site. Para manter seu site seguro, <a href=\"%2$s\">atualize para a versão mais recente do WordPress</a>."
 
-#: wp-admin/about.php:530
+#: wp-admin/about.php:561
 msgid "https://make.wordpress.org/core/2022/10/12/wordpress-6-1-field-guide/"
 msgstr "https://make.wordpress.org/core/2022/10/12/wordpress-6-1-field-guide/"
 
 #. translators: 1: WordPress Release Notes link, 2: WordPress version number.
-#: wp-admin/about.php:540
+#: wp-admin/about.php:571
 msgid "<a href=\"%1$s\">Read the WordPress %2$s Release Notes</a> for more information on the included enhancements and issues fixed, installation information, developer notes and resources, release contributors, and the list of file changes in this release."
 msgstr "<a href=\"%1$s\">Leia as notas de versão do WordPress %2$s</a> para mais informações sobre os aprimoramentos incluídos e os problemas corrigidos, informações de instalação, notas e recursos do desenvolvedor, colaboradores da versão e a lista de arquivos alterados nesta versão."
 
 #. translators: %s: WordPress Field Guide link.
-#: wp-admin/about.php:529
+#: wp-admin/about.php:560
 msgid "Check out the latest version of the <a href=\"%s\">WordPress Field Guide</a>. It is overflowing with detailed developer notes to help you build with WordPress."
 msgstr "Consulte a versão mais recente do <a href=\"%s\">guia de campo do WordPress</a>. Está repleto de notas detalhadas do desenvolvedor para ajudá-lo a criar com WordPress."
 
 #. translators: %s: 6.1 overview video link.
-#: wp-admin/about.php:504
+#: wp-admin/about.php:535
 msgid "See WordPress 6.1 in action! <a href=\"%s\">Watch a brief overview video</a> highlighting some of the major features debuting in WordPress 6.1."
 msgstr "Veja o WordPress 6.1 em ação! <a href=\"%s\">Assista a um breve vídeo de visão geral</a> destacando alguns dos principais recursos lançados no WordPress 6.1."
 
 #. translators: %s: Version number.
-#: wp-admin/about.php:495
+#: wp-admin/about.php:526
 msgid "Learn more about WordPress %s"
 msgstr "Saiba mais sobre o WordPress %s"
 
-#: wp-admin/about.php:487
+#: wp-admin/about.php:518
 msgid "Exploring WordPress 6.1 video"
 msgstr "Vídeo explorando o WordPress 6.1"
 
@@ -784,7 +784,7 @@ msgstr "Ativo"
 
 #: wp-admin/includes/class-core-upgrader.php:160
 #: wp-admin/includes/class-wp-upgrader.php:166
-#: wp-admin/includes/update-core.php:1019
+#: wp-admin/includes/update-core.php:1018
 msgid "The update cannot be installed because some files could not be copied. This is usually due to inconsistent file permissions."
 msgstr "A atualização não pode ser instalada porque não foi possível copiar alguns arquivos. Isso geralmente ocorre devido a permissões de arquivo inconsistentes."
 
@@ -1601,7 +1601,7 @@ msgstr "Adicionar nova senha de aplicativo"
 msgid "Required to create an Application Password, but not to update the user."
 msgstr "Obrigatório para criar uma senha de aplicação, mas não para atualizar o usuário."
 
-#: wp-admin/about.php:558
+#: wp-admin/about.php:589
 msgid "Go to Updates"
 msgstr "Ir para atualizações"
 
@@ -2888,7 +2888,7 @@ msgid "The seventh parameter passed to %s should be numeric representing menu po
 msgstr "O sétimo parâmetro passado para %s deve ser um número representando a posição no menu."
 
 #. translators: 1: WordPress version number, 2: The PHP extension name needed.
-#: wp-admin/includes/update-core.php:1114
+#: wp-admin/includes/update-core.php:1113
 msgid "The update cannot be installed because WordPress %1$s requires the %2$s PHP extension."
 msgstr "A atualização não pode ser instalada porque o WordPress %1$s requer a extensão %2$s do PHP."
 
@@ -4921,11 +4921,11 @@ msgctxt "plugin"
 msgid "Cannot Install"
 msgstr "Não é possível instalar"
 
-#. translators: %s: WordPress version number.
 #. translators: %s: WordPress version.
-#: wp-admin/about.php:543 wp-admin/includes/update.php:306
-#: wp-admin/index.php:119 wp-admin/install.php:239 wp-admin/update-core.php:94
-#: wp-admin/upgrade.php:81
+#. translators: %s: WordPress version number.
+#: wp-admin/about.php:67 wp-admin/about.php:574
+#: wp-admin/includes/update.php:306 wp-admin/index.php:119
+#: wp-admin/install.php:239 wp-admin/update-core.php:94 wp-admin/upgrade.php:81
 msgid "https://wordpress.org/support/wordpress-version/version-%s/"
 msgstr "https://wordpress.org/support/wordpress-version/version-%s/"
 
@@ -7291,7 +7291,7 @@ msgid "(Currently set to: %s)"
 msgstr "(Atualmente definido como: %s) "
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:582
+#: wp-admin/about.php:613
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "A <strong>versão %s</strong> resolveu um problema de segurança."
 
@@ -7303,15 +7303,15 @@ msgstr "https://br.gravatar.com/"
 msgid "Profile Picture"
 msgstr "Foto do perfil"
 
-#: wp-admin/about.php:579
+#: wp-admin/about.php:47 wp-admin/about.php:610
 msgid "Maintenance and Security Releases"
 msgstr "Versões de segurança e manutenção"
 
-#: wp-admin/about.php:576
+#: wp-admin/about.php:607
 msgid "Security Releases"
 msgstr "Atualizações de segurança"
 
-#: wp-admin/about.php:573
+#: wp-admin/about.php:604
 msgid "Maintenance Releases"
 msgstr "Versões de manutenção"
 
@@ -9002,8 +9002,8 @@ msgstr "O seu site em %1$s passou por uma falha crítica ao tentar atualizar o W
 msgid "WordPress %s is also now available."
 msgstr "O WordPress %s também está disponível agora."
 
-#: wp-admin/includes/update-core.php:1191
-#: wp-admin/includes/update-core.php:1227
+#: wp-admin/includes/update-core.php:1190
+#: wp-admin/includes/update-core.php:1226
 msgid "The update cannot be installed because your site is unable to copy some files. This is usually due to inconsistent file permissions."
 msgstr "A atualização não pode ser instalada porque não foi possível copiar alguns arquivos em seu site. Normalmente isto ocorre devido a permissões de arquivo inconsistentes."
 
@@ -9118,7 +9118,7 @@ msgstr "Atualizar traduções"
 msgid "Background updates"
 msgstr "Atualizações em segundo plano"
 
-#: wp-admin/includes/update-core.php:1287
+#: wp-admin/includes/update-core.php:1286
 msgid "There is not enough free disk space to complete the update."
 msgstr "Não há espaço em disco suficiente para completar a atualização."
 
@@ -9196,11 +9196,11 @@ msgstr "O nome de usuário que você forneceu possui caracteres inválidos."
 msgid "Please provide a valid username."
 msgstr "Forneça um nome de usuário válido."
 
-#: wp-admin/includes/update-core.php:1208
+#: wp-admin/includes/update-core.php:1207
 msgid "Copying the required files&#8230;"
 msgstr "Copiando os arquivos necessários&#8230;"
 
-#: wp-admin/includes/update-core.php:1122
+#: wp-admin/includes/update-core.php:1121
 msgid "Preparing to install the latest version&#8230;"
 msgstr "Preparando para instalar a versão mais recente&#8230;"
 
@@ -9893,7 +9893,7 @@ msgid "Search engine visibility"
 msgstr "Visibilidade nos motores de busca"
 
 #. translators: 1: WordPress version, 2: URL to About screen.
-#: wp-admin/includes/update-core.php:1521 wp-admin/update-core.php:904
+#: wp-admin/includes/update-core.php:1520 wp-admin/update-core.php:904
 msgid "Welcome to WordPress %1$s. You will be redirected to the About WordPress screen. If not, click <a href=\"%2$s\">here</a>."
 msgstr "Bem-vindo(a) ao WordPress %1$s. Você será redirecionado(a) à tela Sobre o WordPress. Se não, clique <a href=\"%2$s\">aqui</a>."
 
@@ -10614,14 +10614,15 @@ msgstr "Digite o endereço de e-mail de um usuário existente nesta rede para co
 msgid "Show Toolbar when viewing site"
 msgstr "Mostrar a barra de ferramentas ao ver site"
 
+#. translators: %s: HelpHub URL.
 #. translators: %s: Documentation URL.
-#: wp-admin/about.php:605
+#: wp-admin/about.php:64 wp-admin/about.php:636
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "Para mais informações, veja <a href=\"%s\">as notas de lançamento</a>."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:599
+#: wp-admin/about.php:630
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "A <strong>versão %1$s</strong> corrigiu alguns problemas de segurança e %2$s bug."
@@ -10629,33 +10630,33 @@ msgstr[1] "A <strong>versão %1$s</strong> corrigiu alguns problemas de seguran�
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:593
+#: wp-admin/about.php:624
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "A <strong>versão %1$s</strong> corrigiu um problema de segurança e %2$s bug."
 msgstr[1] "A <strong>versão %1$s</strong> corrigiu um problema de segurança e %2$s bugs."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs.
-#: wp-admin/about.php:587
+#: wp-admin/about.php:52 wp-admin/about.php:618
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "A <strong>versão %1$s</strong> corrigiu %2$s bug."
 msgstr[1] "A <strong>versão %1$s</strong> corrigiu %2$s bugs."
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:584
+#: wp-admin/about.php:615
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "A <strong>versão %s</strong> corrigiu alguns problemas de segurança."
 
-#: wp-admin/about.php:578
+#: wp-admin/about.php:609
 msgid "Maintenance and Security Release"
 msgstr "Versão de segurança e manutenção"
 
-#: wp-admin/about.php:575
+#: wp-admin/about.php:606
 msgid "Security Release"
 msgstr "Versão de segurança"
 
-#: wp-admin/about.php:572
+#: wp-admin/about.php:603
 msgid "Maintenance Release"
 msgstr "Versão de manutenção"
 
@@ -10669,7 +10670,7 @@ msgid "This screen allows you to choose your permalink structure. You can choose
 msgstr "Esta tela permite que você escolha a estrutura padrão para seu links permanentes. Você pode escolher a partir de uma das opções padrão ou criar uma estrutura de URL personalizada."
 
 #. translators: 1: WordPress version, 2: URL to About screen.
-#: wp-admin/includes/update-core.php:1529 wp-admin/update-core.php:912
+#: wp-admin/includes/update-core.php:1528 wp-admin/update-core.php:912
 msgid "Welcome to WordPress %1$s. <a href=\"%2$s\">Learn more</a>."
 msgstr "Bem-vindo ao WordPress%1$s. <a href=\"%2$s\">Saiba mais</a>."
 
@@ -10937,15 +10938,15 @@ msgid "Because this is a multisite installation, you may add accounts that alrea
 msgstr "Porque esta é uma instalação multisite, você pode adicionar contas que já existem na rede, especificando um nome de usuário ou e-mail e definindo o seu papel. Para obter mais opções, como especificar uma senha, você tem que ser um administrador de rede e use o link sob o nome de um usuário existente para editar o perfil do usuário em Administração de Rede > Todos os Usuários."
 
 #. translators: %s: Version number.
-#: wp-admin/about.php:51
+#: wp-admin/about.php:82
 msgid "Welcome to WordPress %s"
 msgstr "Boas-vindas ao WordPress %s"
 
-#: wp-admin/about.php:561
+#: wp-admin/about.php:592
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Ir para Painel &rarr; Início"
 
-#: wp-admin/about.php:558
+#: wp-admin/about.php:589
 msgid "Go to Dashboard &rarr; Updates"
 msgstr "Ir para o Painel &rarr; Atualizações"
 
@@ -12676,7 +12677,7 @@ msgid "User already exists. Password inherited."
 msgstr "O usuário já existe. Senha herdada."
 
 #: wp-admin/includes/class-wp-automatic-updater.php:428
-#: wp-admin/includes/update-core.php:1515 wp-admin/update-core.php:900
+#: wp-admin/includes/update-core.php:1514 wp-admin/update-core.php:900
 msgid "WordPress updated successfully."
 msgstr "O WordPress foi atualizado."
 
@@ -12705,7 +12706,7 @@ msgstr "Atualizações do WordPress"
 msgid "Edit menu item"
 msgstr "Editar item do menu"
 
-#: wp-admin/about.php:561 wp-admin/includes/network.php:148
+#: wp-admin/about.php:592 wp-admin/includes/network.php:148
 msgid "Go to Dashboard"
 msgstr "Ir para o painel"
 
@@ -13522,7 +13523,7 @@ msgstr "Qualquer pessoa pode se registrar"
 msgid "Membership"
 msgstr "Membros"
 
-#: wp-admin/about.php:298 wp-admin/options-general.php:20
+#: wp-admin/about.php:329 wp-admin/options-general.php:20
 msgid "General Settings"
 msgstr "Configurações gerais"
 
@@ -13914,34 +13915,34 @@ msgstr "Atualizar para %s"
 msgid "You are using a development version (%1$s). Cool! Please <a href=\"%2$s\">stay updated</a>."
 msgstr "Você está usando uma versão para desenvolvedores (%1$s). Legal! <a href=\"%2$s\">Mantenha-se atualizado</a>."
 
-#: wp-admin/includes/update-core.php:1445
+#: wp-admin/includes/update-core.php:1444
 msgid "Upgrading database&#8230;"
 msgstr "Atualizando banco de dados&#8230;"
 
-#: wp-admin/includes/update-core.php:1003
+#: wp-admin/includes/update-core.php:1002
 msgid "The update could not be unpacked"
 msgstr "A atualização não pode ser descompactada"
 
-#: wp-admin/includes/update-core.php:985
+#: wp-admin/includes/update-core.php:984
 msgid "Verifying the unpacked files&#8230;"
 msgstr "Verificando arquivos descompactados&#8230;"
 
 #. translators: 1: WordPress version number, 2: Minimum required MySQL version
 #. number, 3: Current MySQL version number.
-#: wp-admin/includes/update-core.php:1100
+#: wp-admin/includes/update-core.php:1099
 msgid "The update cannot be installed because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
 msgstr "A atualização não pode ser instalada, porque o WordPress %1$s necessita a versão %2$s ou mais recente do MySQL. Você está usando a versão %3$s."
 
 #. translators: 1: WordPress version number, 2: Minimum required PHP version
 #. number, 3: Current PHP version number.
-#: wp-admin/includes/update-core.php:1089
+#: wp-admin/includes/update-core.php:1088
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
 msgstr "A atualização não pode ser instalada, porque o WordPress %1$s necessita a versão %2$s ou mais recente do PHP. Você está usando a versão %3$s."
 
 #. translators: 1: WordPress version number, 2: Minimum required PHP version
 #. number, 3: Minimum required MySQL version number, 4: Current PHP version
 #. number, 5: Current MySQL version number.
-#: wp-admin/includes/update-core.php:1076
+#: wp-admin/includes/update-core.php:1075
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
 msgstr "A atualização não pode ser instalada porque o WordPress %1$s necessita a versão %2$s ou mais recente do PHP e a versão %3$s ou mais recente do MySQL. Você está usando a versão %4$s do PHP e a %5$s do MySQL."
 
@@ -14882,7 +14883,7 @@ msgid "Empty archive."
 msgstr "Arquivo vazio."
 
 #: wp-admin/includes/file.php:1742 wp-admin/includes/file.php:1872
-#: wp-admin/includes/file.php:1917 wp-admin/includes/update-core.php:1386
+#: wp-admin/includes/file.php:1917 wp-admin/includes/update-core.php:1385
 msgid "Could not copy file."
 msgstr "Não foi possível copiar o arquivo."
 
@@ -15200,12 +15201,12 @@ msgid "The plugin is at the latest version."
 msgstr "O plugin está na sua versão mais recente."
 
 #: wp-admin/includes/class-wp-upgrader.php:169
-#: wp-admin/includes/update-core.php:1335
+#: wp-admin/includes/update-core.php:1334
 msgid "Disabling Maintenance mode&#8230;"
 msgstr "Desativando modo de manutenção&#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:168
-#: wp-admin/includes/update-core.php:1199
+#: wp-admin/includes/update-core.php:1198
 msgid "Enabling Maintenance mode&#8230;"
 msgstr "Ativando modo de manutenção&#8230;"
 
