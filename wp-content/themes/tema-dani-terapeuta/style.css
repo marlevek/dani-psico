@@ -10,6 +10,50 @@ License URI: http://www.gnu.org/license/gpl-2.0.html
 Tags: terapeuta, terapia, psicologia, custom-menu, custom-logo, featured-images, footer-widgets, theme-options, translation-ready, blog, right-sidebar, sticky-post
 */
 
+
+/*Para telas menores*/
+@media (min-width: 500px){
+.home-section{
+    scroll-behavior: smooth;
+}
+.terapeuta{
+    padding-top: 0.2em;
+}
+.nome{
+    margin-top: 0.2em;
+        
+}
+    
+/*SECTION-1*/
+#section-1{
+    background: url('http://localhost/dani-psico/wp-content/uploads/2023/01/imagem-home-secao-1-smartphones.png') center no-repeat fixed;
+    background-size: cover;
+    min-height: 768px;
+       
+}
+    
+#section-2{
+    background: url('http://localhost/dani-psico/wp-content/uploads/2023/01/imagem-home-secao-2.png') center no-repeat fixed;
+    background-size:cover;
+    min-height: 768px;
+        
+}
+    
+    
+    
+
+
+}
+
+
+/*Tablets*/
+
+
+
+
+
+/*Laptops e PCs*/
+@media (min-width: 1200px){
 .home-section{
     scroll-behavior: smooth;
 }
@@ -23,21 +67,18 @@ Tags: terapeuta, terapia, psicologia, custom-menu, custom-logo, featured-images,
 
 /*SECTION-1*/
 #section-1{
-    background-image: url('http://localhost/dani-psico/wp-content/uploads/2023/01/imagem-home-secao-1.png');
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
-    background-attachment: fixed;
-    min-height: 900px;
+   background: url('http://localhost/dani-psico/wp-content/uploads/2023/01/imagem-home-secao-1.png') center no-repeat fixed;
+   background-size: cover;
+   min-height: 900px;
    
 }
 
 #section-2{
-    background-image: url('http://localhost/dani-psico/wp-content/uploads/2023/01/imagem-home-secao-2.png');
-    background-repeat: no-repeat;
+    background-image: url('http://localhost/dani-psico/wp-content/uploads/2023/01/imagem-home-secao-2.png') center no-repeat fixed;
     background-size:cover;
-    background-position: center;
-    background-attachment: fixed;
     min-height: 900px;
     
+}
+
+
 }
