@@ -58,6 +58,7 @@
 </div>
 </section>
 </div>
+<div class="container">
 <section id="section-4" class="home-section">
-    <h1>FORMULÁRIO DE CONTATO</h1>
-</section>
+    <h1 class="my-5 form_tit">FORMULÁRIO DE CONTATO</h1>
+</section></div>
