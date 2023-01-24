@@ -11,7 +11,7 @@ Tags: terapeuta, terapia, psicologia, custom-menu, custom-logo, featured-images,
 */
 
 .titulo{
-    color: rgb(3, 127,253);
+    color: rgb(123, 1, 5);
     font: x-large bold;
 }
 
@@ -19,6 +19,18 @@ Tags: terapeuta, terapia, psicologia, custom-menu, custom-logo, featured-images,
     color: rgb(3, 127,253)
 }
 
+.form_tit{
+    color: rgb(3, 127,253)
+}
+
+.cor_texto{
+    color:black;
+}
+
+a.mzl{
+color:black;
+text-decoration: none;
+}
 
 
 /*Para telas menores*/
@@ -90,5 +102,9 @@ Tags: terapeuta, terapia, psicologia, custom-menu, custom-logo, featured-images,
     
 }
 
+.footer-bg{
+    background-color: rgb(3, 127, 253);
+    height: 150px;
+}
 
 }
