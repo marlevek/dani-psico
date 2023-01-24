@@ -1,8 +1,5 @@
 <section id="section-1" class="home-section">
-      <div class="container">
-    <h1 class="text-white terapeuta">Danielle Zagonel Machado</h1>
-    <h2 class="nome text-white">Psicoterapeuta</h2>
-    </div>
+    
 </section>
 
 <section id="section-2" class="home-section">
