@@ -12,7 +12,7 @@
           <a class="nav-link" href="#section-2">Sobre</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#section-3">Terapias</a>
+          <a class="nav-link" href="#section-3">Psicoterapias</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#section-4">Contato</a>
