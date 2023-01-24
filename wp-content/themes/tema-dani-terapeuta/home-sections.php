@@ -61,4 +61,24 @@
 <div class="container">
 <section id="section-4" class="home-section">
     <h1 class="my-5 form_tit">FORMULÁRIO DE CONTATO</h1>
-</section></div>
+</section>
+<div class="row mb-3">
+  <label for="colFormLabel" class="col-sm-2 col-form-label col-form-label-sm">Nome</label>
+  <div class="col-sm-10">
+    <input type="text" class="form-control form-control-sm" id="colFormLabel">
+  </div>
+</div>
+<div class="row mb-3">
+  <label for="colFormLabel" class="col-sm-2 col-form-label">E-mail</label>
+  <div class="col-sm-10">
+    <input type="email" class="form-control" id="colFormLabel" >
+  </div>
+</div>
+<div class="row">
+  <label for="colFormLabel" class="col-sm-2 col-form-label">Mensagem</label>
+  <div class="col-sm-10">
+    <textarea class="form-control form-control-lg" id="colFormLabel"></textarea>
+  </div>
+</div>
+
+</div>
