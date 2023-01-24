@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <nav class="navbar navbar-expand-lg navbar-light ">
   <div class="container">
-  <a class="navbar-brand" href="#">Espaço Gestalt</a>
+  <a class="navbar-brand" href="#"><span class="titulo">Danielle Zagonel Machado</span></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
