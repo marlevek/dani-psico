@@ -62,21 +62,9 @@
   <div class="container">
     <h1 class="my-5 form_tit">ENTRE EM CONTATO COMIGO</h1>
     <p>Use o formulário abaixo para enviar sugestões, agendar consulta ou fazer alguma reclamação.</p>
-<form action="">
-<div class="mb-3">
-  <label for="nome" class="form-label">Nome</label>
-  <input type="text" class="form-control" id="nome">
-</div>
-<div class="mb-3">
-  <label for="email" class="form-label">E-mail</label>
-  <input type="email" class="form-control">
-</div>
-<div class="mb-3">
-  <label for="msg" class="form-label">Mensagem</label>
-  <textarea class="form-control" id="msg"></textarea>
-</div>
-<button type="submit" class="btn btn-primary">Enviar</button>
-</form>
+<?php
+dynamic_sidebar('contato')
+?>
 </div>
 </section>
 </main>
