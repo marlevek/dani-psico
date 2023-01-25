@@ -10,6 +10,14 @@ License URI: http://www.gnu.org/license/gpl-2.0.html
 Tags: terapeuta, terapia, psicologia, custom-menu, custom-logo, featured-images, footer-widgets, theme-options, translation-ready, blog, right-sidebar, sticky-post
 */
 
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    display: block;
+}
 .titulo{
     color: rgb(123, 1, 5);
     font: x-large bold;
@@ -32,50 +40,6 @@ color:black;
 text-decoration: none;
 }
 
-
-/*Para telas menores*/
-@media (min-width: 500px){
-.home-section{
-    scroll-behavior: smooth;
-}
-.terapeuta{
-    padding-top: 0.2em;
-}
-.nome{
-    margin-top: 0.2em;
-        
-}
-    
-/*SECTION-1*/
-#section-1{
-    background: url('http://localhost/dani-psico/wp-content/uploads/2023/01/imagem-home-secao-1-smartphones.png') center no-repeat fixed;
-    background-size: cover;
-    min-height: 768px;
-       
-}
-    
-#section-2{
-    background: url('http://localhost/dani-psico/wp-content/uploads/2023/01/imagem-home-secao-2.png') center no-repeat fixed;
-    background-size:cover;
-    min-height: 768px;
-        
-}
-    
-    
-    
-
-
-}
-
-
-/*Tablets*/
-
-
-
-
-
-/*Laptops e PCs*/
-@media (min-width: 1200px){
 .home-section{
     scroll-behavior: smooth;
 }
@@ -84,27 +48,124 @@ text-decoration: none;
 }
 .nome{
     margin-top: 0.5em;
-    
 }
 
-/*SECTION-1*/
+/* ESTILOS SEÇÕES HOME PAGE*/
+@media (min-width: 500px){
 #section-1{
-   background: url('http://localhost/dani-psico/wp-content/uploads/2023/01/imagem-home-secao-1.png') center no-repeat fixed;
-   background-size: cover;
-   min-height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url('http://localhost/dani-psico/wp-content/uploads/2023/01/imagem-home-secao-1_pequena.png') no-repeat fixed;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 100vh !important;
+    background-position: 50% 50%;
+    background-size: cover;
    
+}
+#section-2{
+    background: url('http://localhost/dani-psico/wp-content/uploads/2023/01/imagem-home-secao-2_pequena.png') center no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh !important;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-size: cover;
+    
+}
+}
+
+@media (min-width: 760px){
+    #section-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: url(' http://localhost/dani-psico/wp-content/uploads/2023/01/imagem-home-secao-1_menor.png') no-repeat fixed;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        height: 100vh !important;
+        background-position: 50% 50%;
+        background-size: cover;
+       
+    }
+}
+
+@media (min-width: 980px){
+
+}
+
+@media (min-width: 1100px){
+#section-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url('http://localhost/dani-psico/wp-content/uploads/2023/01/imagem-home-secao-1.png') no-repeat fixed;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 100vh !important;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
 #section-2{
-    background-image: url('http://localhost/dani-psico/wp-content/uploads/2023/01/imagem-home-secao-2.png') center no-repeat fixed;
-    background-size:cover;
-    min-height: 900px;
+    background: url('http://localhost/dani-psico/wp-content/uploads/2023/01/imagem-home-secao-2.png') center no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh !important;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-size: cover;
     
 }
+/*#section-3{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh !important;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-size: cover;
 
+}*/
+#section-4{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh !important;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-size: cover;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+/*RODAPÉ*/
 .footer-bg{
     background-color: rgb(3, 127, 253);
     height: 150px;
 }
 
-}
