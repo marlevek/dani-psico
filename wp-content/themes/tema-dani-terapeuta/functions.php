@@ -44,7 +44,33 @@ add_theme_support('title-tag');
 
 add_action('after_setup_theme', 'dani_terapeuta_config', 0);
 
+// Adicionar Logomarca customizada
+function dani_custom_logo_setup()
+{
+  $logo_dani = array(
+    'width'         => 250,
+    'height'        => 85,
+    'flex-height'   => true,
+    'flex-width'    => true,
 
+  );
+  add_theme_support('custom-logo', $logo_dani);
+}
+add_action('after_setup_theme', 'dani_custom_logo_setup');
+
+// Registro de Sidebars e Widgets
+function dani_sidebars()
+{
+  register_sidebar(array(
+    'name'  => ('Formulário de Contato'),
+    'id'    => 'contato', 
+    'description' => ('Adicione o código do formulário de contato com campo de texto'),
+    'before_widget'=> '<div class="my-5 mb-3 g-3">',
+    'after_widget' => '</div>'
+  )
+);
+}
+add_action('widgets_init', 'dani_sidebars');
 
 
 // bootstrap 5 wp_nav_menu walker
