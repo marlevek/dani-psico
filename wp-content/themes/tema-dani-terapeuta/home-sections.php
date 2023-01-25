@@ -62,24 +62,21 @@
   <div class="container">
     <h1 class="my-5 form_tit">ENTRE EM CONTATO COMIGO</h1>
     <p>Use o formulário abaixo para enviar sugestões, agendar consulta ou fazer alguma reclamação.</p>
-<div class="row mb-3 mt-4">
-  <label for="colFormLabel" class="col-sm-2 col-form-label col-form-label-sm">Nome</label>
-  <div class="col-sm-10">
-    <input type="text" class="form-control form-control-sm" id="colFormLabel">
-  </div>
+<form action="">
+<div class="mb-3">
+  <label for="nome" class="form-label">Nome</label>
+  <input type="text" class="form-control" id="nome">
 </div>
-<div class="row mb-3">
-  <label for="colFormLabel" class="col-sm-2 col-form-label">E-mail</label>
-  <div class="col-sm-10">
-    <input type="email" class="form-control" id="colFormLabel" >
-  </div>
+<div class="mb-3">
+  <label for="email" class="form-label">E-mail</label>
+  <input type="email" class="form-control">
 </div>
-<div class="row">
-  <label for="colFormLabel" class="col-sm-2 col-form-label">Mensagem</label>
-  <div class="col-sm-10">
-    <textarea class="form-control form-control-lg" id="colFormLabel"></textarea>
-  </div>
+<div class="mb-3">
+  <label for="msg" class="form-label">Mensagem</label>
+  <textarea class="form-control" id="msg"></textarea>
 </div>
+<button type="submit" class="btn btn-primary">Enviar</button>
+</form>
 </div>
 </section>
 </main>
