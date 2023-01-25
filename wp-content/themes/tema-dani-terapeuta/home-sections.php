@@ -1,7 +1,6 @@
-<section id="section-1" class="home-section">
-    
-</section>
-
+<div class="wrapper">
+<main>
+<section id="section-1" class="home-section"></section>
 <section id="section-2" class="home-section">
     <div class="container">
    <div class="row justify-content-around">
@@ -15,9 +14,9 @@
 </div>
 </section>
 
-<div class="container">
 <section id="section-3" class="home-section">
-    <h2 class="psicoterapias_tit mt-5">PSICOTERAPIAS</h2>
+<div class="container">
+  <h2 class="psicoterapias_tit">PSICOTERAPIAS</h2>
 <div class="row row-cols-1 row-cols-md-2 g-4 mt-4">
   <div class="col">
     <div class="card">
@@ -56,13 +55,14 @@
     </div>
   </div>
 </div>
-</section>
 </div>
-<div class="container">
-<section id="section-4" class="home-section">
-    <h1 class="my-5 form_tit">FORMULÁRIO DE CONTATO</h1>
 </section>
-<div class="row mb-3">
+
+<section id="section-4" class="home-section mt-5">
+  <div class="container">
+    <h1 class="my-5 form_tit">ENTRE EM CONTATO COMIGO</h1>
+    <p>Use o formulário abaixo para enviar sugestões, agendar consulta ou fazer alguma reclamação.</p>
+<div class="row mb-3 mt-4">
   <label for="colFormLabel" class="col-sm-2 col-form-label col-form-label-sm">Nome</label>
   <div class="col-sm-10">
     <input type="text" class="form-control form-control-sm" id="colFormLabel">
@@ -80,5 +80,7 @@
     <textarea class="form-control form-control-lg" id="colFormLabel"></textarea>
   </div>
 </div>
-
+</div>
+</section>
+</main>
 </div>
