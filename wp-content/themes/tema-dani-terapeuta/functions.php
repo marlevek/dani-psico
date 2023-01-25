@@ -29,8 +29,8 @@ function dani_terapeuta_config(){
   register_nav_menus(
     array(
       'dani-terapeuta-main-menu' => 'Dani Teraputa Main Menu'
-    )
-    );
+  )
+);
  //FIM DA ONEPAGE CODE
 
 //Habilitar imagens de destaque
