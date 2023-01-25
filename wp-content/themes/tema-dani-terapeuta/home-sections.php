@@ -61,9 +61,9 @@
 <section id="section-4" class="home-section mt-5">
   <div class="container">
     <h1 class="my-5 form_tit">ENTRE EM CONTATO COMIGO</h1>
-    <p>Use o formulário abaixo para enviar sugestões, agendar consulta ou fazer alguma reclamação.</p>
+    <p class="fs-4">Use o formulário abaixo para enviar sugestões, agendar consulta ou fazer alguma reclamação</p>
 <?php
-dynamic_sidebar('contato')
+dynamic_sidebar('contato');
 ?>
 </div>
 </section>
