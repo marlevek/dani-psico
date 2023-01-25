@@ -17,7 +17,6 @@ wp_enqueue_style('dani-style', get_stylesheet_uri(), array(), filemtime(get_temp
 add_action('wp_enqueue_scripts', 'dani_terapeuta_scripts');
 
 //ONEPAGE CODE
-
 // Adicionar suporte para seções de conteúdo na página inicial
 add_action( 'twentytwentyone_before_content', 'add_home_sections' );
 function add_home_sections() {
@@ -32,7 +31,7 @@ function dani_terapeuta_config(){
       'dani-terapeuta-main-menu' => 'Dani Teraputa Main Menu'
     )
     );
-
+ //FIM DA ONEPAGE CODE
 
 //Habilitar imagens de destaque
 add_theme_support('post-thumbnails');
@@ -64,9 +63,8 @@ function dani_sidebars()
   register_sidebar(array(
     'name'  => ('Formulário de Contato'),
     'id'    => 'contato', 
-    'description' => ('Adicione o código do formulário de contato com campo de texto'),
-    'before_widget'=> '<div class="my-5 mb-3 g-3">',
-    'after_widget' => '</div>'
+    'description' => ('Adicione o código do formulário de contato com campo de texto')
+    
   )
 );
 }
