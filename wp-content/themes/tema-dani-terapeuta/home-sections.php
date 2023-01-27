@@ -1,5 +1,7 @@
 <div class="wrapper">
 <main>
+    <img src='http://localhost/dani-psico/wp-content/uploads/2023/01/imagem-hero-home-page.png' alt='' class='img-fluid'>
+
 <section id="section-1" class="home-section">
     <div class="container">
    <div class="row justify-content-between">
@@ -57,10 +59,10 @@
 </div>
 </section>
 
-<section id="section-3" class="home-section mt-5">
+<section id="section-3" class="home-section mt-5 pb-3">
  
   <div class="container">
-    <h1 class="my-5 form_tit">ENTRE EM CONTATO COMIGO</h1>
+    <h1 class="mt-5 form_tit pt-3">ENTRE EM CONTATO COMIGO</h1>
     <p class="fs-4">Use o formulário abaixo para enviar sugestões, agendar consulta ou fazer alguma reclamação</p>
 <?php
 dynamic_sidebar('contato');
