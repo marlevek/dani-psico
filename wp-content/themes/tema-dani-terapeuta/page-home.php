@@ -8,13 +8,13 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="#section-2">Sobre</a>
+          <a class="nav-link" href="#section-1">Sobre</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#section-3">Psicoterapias</a>
+          <a class="nav-link" href="#section-2">Psicoterapias</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#section-4">Contato</a>
+          <a class="nav-link" href="#section-3">Contato</a>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Blog</a>
@@ -24,27 +24,7 @@
     </div>
   </div>
 </nav>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-       
-  
+    
 <?php get_template_part('home-sections'); ?>
 
 
