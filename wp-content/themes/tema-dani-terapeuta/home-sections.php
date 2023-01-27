@@ -15,7 +15,6 @@
    </div>
 </div>
 </section>
-
 <section id="section-2" class="home-section">
 <div class="container">
   <h2 class="psicoterapias_tit mt-5">PSICOTERAPIAS</h2>
@@ -62,22 +61,21 @@
 
 <section id="section-3" class="home-section mt-5 pb-3">
    <div class="container">
-    <h1 class="mt-5 form_tit pt-3">ENTRE EM CONTATO COMIGO</h1>
+   <h2 class="mt-5 form_tit pt-3">ENTRE EM CONTATO COMIGO</h2>
     <p class="fs-4">Use um dos meios abaixo para enviar sugestões, agendar consulta ou fazer alguma reclamação</p>
-<div class="row">
-  <div class="col-6">
+    <div class="row">
+<div class="col-6">
     <?php
-dynamic_sidebar('contato');
-?></div>
+dynamic_sidebar('contato'); ?>
+</div> 
   <div class="col-6 mt-5">
     <ul style="list-style-type:none;">
-      <li><a href=""><img src="http://localhost/dani-psico/wp-content/uploads/2023/01/logo-email.png" alt="email Danielle Machado">e-mail</a>  </li>
-      <li><a href=""> <img src="http://localhost/dani-psico/wp-content/uploads/2023/01/logo-facebook.png" alt="facebook Danielle Machado">Facebook</a></li>
-      <li><a href=""> <img src="http://localhost/dani-psico/wp-content/uploads/2023/01/logo-whatsapp.png" alt="whatsapp Danielle Machado">Whatsapp</a></li>    
+      <li><a href=""><img src="http://localhost/dani-psico/wp-content/uploads/2023/01/logo-email.png" alt="email Danielle Machado"> e-mail</a>  </li>
+      <li><a href=""> <img src="http://localhost/dani-psico/wp-content/uploads/2023/01/logo-facebook.png" alt="facebook Danielle Machado"> Facebook</a></li>
+      <li><a href=""> <img src="http://localhost/dani-psico/wp-content/uploads/2023/01/logo-whatsapp.png" alt="whatsapp Danielle Machado"> Whatsapp</a></li>    
   </ul>
   </div>
 </div>    
-
 </div>
 
 </section>
