@@ -25,13 +25,14 @@ function add_home_sections() {
     }
 }
 
+ //FIM DA ONEPAGE CODE
+
 function dani_terapeuta_config(){
   register_nav_menus(
     array(
       'dani-terapeuta-main-menu' => 'Dani Teraputa Main Menu'
   )
 );
- //FIM DA ONEPAGE CODE
 
 //Habilitar imagens de destaque
 add_theme_support('post-thumbnails');
@@ -62,7 +63,7 @@ function dani_sidebars()
 {
   register_sidebar(array(
     'name'  => ('Formulário de Contato'),
-    'id'    => 'contato', 
+    'id'    => ('contato'), 
     'description' => ('Adicione o código do formulário de contato com campo de texto')
     
   )
