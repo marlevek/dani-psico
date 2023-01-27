@@ -1,9 +1,8 @@
 <div class="wrapper">
 <main>
-<section id="section-1" class="home-section"></section>
-<section id="section-2" class="home-section">
+<section id="section-1" class="home-section">
     <div class="container">
-   <div class="row justify-content-around">
+   <div class="row justify-content-between">
     <div class="col-6 mt-5">
         <img src="http://localhost/dani-psico/wp-content/uploads/2023/01/foto-dani-circular.png" alt='foto Danielle Zagonel Machado' class="img-fluid">
     </div>
@@ -14,9 +13,9 @@
 </div>
 </section>
 
-<section id="section-3" class="home-section">
+<section id="section-2" class="home-section">
 <div class="container">
-  <h2 class="psicoterapias_tit">PSICOTERAPIAS</h2>
+  <h2 class="psicoterapias_tit mt-5">PSICOTERAPIAS</h2>
 <div class="row row-cols-1 row-cols-md-2 g-4 mt-4">
   <div class="col">
     <div class="card">
@@ -58,7 +57,8 @@
 </div>
 </section>
 
-<section id="section-4" class="home-section mt-5">
+<section id="section-3" class="home-section mt-5">
+ 
   <div class="container">
     <h1 class="my-5 form_tit">ENTRE EM CONTATO COMIGO</h1>
     <p class="fs-4">Use o formulário abaixo para enviar sugestões, agendar consulta ou fazer alguma reclamação</p>
@@ -66,6 +66,7 @@
 dynamic_sidebar('contato');
 ?>
 </div>
+
 </section>
 </main>
 </div>
