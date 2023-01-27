@@ -10,11 +10,11 @@ License URI: http://www.gnu.org/license/gpl-2.0.html
 Tags: terapeuta, terapia, psicologia, custom-menu, custom-logo, featured-images, footer-widgets, theme-options, translation-ready, blog, right-sidebar, sticky-post
 */
 
-/*.wrapper{
+.wrapper{
     width: 100%;
     margin: 0 auto;
 }
-*/
+
 
 main {
     display: block;
@@ -25,12 +25,8 @@ main {
     font: x-large bold;
 }
 
-.psicoterapias_tit {
-    color: rgb(3, 127, 253)
-}
-
-.form_tit {
-    color: rgb(3, 127, 253)
+.psicoterapias_tit, .form_tit {
+    color: rgb(123, 1, 5);
 }
 
 .cor_texto {
@@ -51,7 +47,7 @@ main {
 
 #section-1{
     background: rgb(111, 185, 169);
-    height: 60vh;
+    height: 70vh;
 }
 
 #section-3{
