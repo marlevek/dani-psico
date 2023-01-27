@@ -63,9 +63,10 @@ function dani_sidebars()
 {
   register_sidebar(array(
     'name'  => ('Formulário de Contato'),
-    'id'    => ('contato'), 
-    'description' => ('Adicione o código do formulário de contato com campo de texto')
-    
+    'id'    => 'contato', 
+    'description' => ('Adicione o código do formulário de contato com campo de texto'),
+    'before_widget' => '<div class="pt-4">',
+    'after_widget' => '</div>'
   )
 );
 }
