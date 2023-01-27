@@ -10,151 +10,61 @@ License URI: http://www.gnu.org/license/gpl-2.0.html
 Tags: terapeuta, terapia, psicologia, custom-menu, custom-logo, featured-images, footer-widgets, theme-options, translation-ready, blog, right-sidebar, sticky-post
 */
 
-.wrapper{
+/*.wrapper{
     width: 100%;
     margin: 0 auto;
 }
+*/
 
-main{
+main {
     display: block;
 }
-.titulo{
+
+.titulo {
     color: rgb(123, 1, 5);
     font: x-large bold;
 }
 
-.psicoterapias_tit{
-    color: rgb(3, 127,253)
+.psicoterapias_tit {
+    color: rgb(3, 127, 253)
 }
 
-.form_tit{
-    color: rgb(3, 127,253)
+.form_tit {
+    color: rgb(3, 127, 253)
 }
 
-.cor_texto{
-    color:black;
+.cor_texto {
+    color: black;
 }
 
-a.mzl{
-color:black;
-text-decoration: none;
-}
-
-.home-section{
+.home-section {
     scroll-behavior: smooth;
 }
-.terapeuta{
+
+.terapeuta {
     padding-top: 1.2em;
 }
-.nome{
+
+.nome {
     margin-top: 0.5em;
 }
 
-/* ESTILOS SEÇÕES HOME PAGE*/
-@media (min-width: 500px){
 #section-1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: url('http://localhost/dani-psico/wp-content/uploads/2023/01/imagem-home-secao-1_pequena.png') no-repeat fixed;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    height: 100vh !important;
-    background-position: 50% 50%;
-    background-size: cover;
-   
-}
-#section-2{
-    background: url('http://localhost/dani-psico/wp-content/uploads/2023/01/imagem-home-secao-2_pequena.png') center no-repeat fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: 100vh !important;
-    position: relative;
-    overflow: hidden;
-    background-position: 50% 50%;
-    background-size: cover;
-    
-}
+    background: rgb(111, 185, 169);
+    height: 60vh;
 }
 
-@media (min-width: 760px){
-    #section-1{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background: url(' http://localhost/dani-psico/wp-content/uploads/2023/01/imagem-home-secao-1_menor.png') no-repeat fixed;
-        width: 100%;
-        position: relative;
-        overflow: hidden;
-        height: 100vh !important;
-        background-position: 50% 50%;
-        background-size: cover;
-       
-    }
+#section-3{
+    background: rgb(145, 189, 202);
 }
-
-@media (min-width: 980px){
-
-}
-
-@media (min-width: 1100px){
-#section-1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: url('http://localhost/dani-psico/wp-content/uploads/2023/01/imagem-home-secao-1.png') no-repeat fixed;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    height: 100vh !important;
-    background-position: 50% 50%;
-    background-size: cover;
-}
-
-#section-2{
-    background: url('http://localhost/dani-psico/wp-content/uploads/2023/01/imagem-home-secao-2.png') center no-repeat fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: 100vh !important;
-    position: relative;
-    overflow: hidden;
-    background-position: 50% 50%;
-    background-size: cover;
-    
-}
-
-#section-4{
-    background-color: beige;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100vh !important;
-    position: relative;
-    overflow: hidden;
-    background-position: 50% 50%;
-    background-size: cover;
-
-}
-
-}
-
-
-
-
-
-
-
-
-
 
 /*RODAPÉ*/
-.footer-bg{
+.footer-bg {
     background-color: rgb(3, 127, 253);
     height: 150px;
 }
 
+a.mzl {
+    color: black;
+    text-decoration: none;
+}
