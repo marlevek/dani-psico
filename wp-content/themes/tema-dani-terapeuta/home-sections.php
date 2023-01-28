@@ -18,6 +18,10 @@
 <section id="section-2" class="home-section">
 <div class="container">
   <h2 class="psicoterapias_tit mt-5">PSICOTERAPIAS</h2>
+<p class="fs-4">Bem-vindo ao nosso site de terapias, onde ofereço acompanhamento e suporte para superar desafios emocionais e alcançar um equilíbrio saudável. Sou terapeuta experiente e altamente qualificada para trabalhar com você em uma variedade de áreas, incluindo ansiedade, depressão, traumas, problemas de relacionamento e desenvolvimento pessoal.</p>
+<p class="fs-4">Acredito que cada pessoa é única e, portanto, ofereço uma abordagem personalizada para atender às suas necessidades individuais. As terapias incluem técnicas comprovadas como a terapia cognitivo-comportamental, terapia de aceitação e compromisso, terapia centrada na pessoa, entre outras.</p>
+<p class="fs-4">Eu entendo que buscar ajuda pode ser difícil, mas estou aqui para tornar esse processo o mais fácil e confortável possível. Ofereço sessões presenciais e virtuais, e estou disponível para atender a você em horários flexíveis. Entre em <a href="http://localhost/dani-psico/#section-3">contato</a> comigo hoje para marcar uma consulta e começar sua jornada para o bem-estar emocional.</p>
+
 <div class="row row-cols-1 row-cols-md-2 g-4 mt-4">
   <div class="col">
     <div class="card">
