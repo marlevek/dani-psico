@@ -45,8 +45,8 @@ main {
 }
 
 #section-1{
-    background: rgb(111, 185, 169);
-    height: 70vh;
+    background: rgb(211, 190, 99);
+   
 }
 
 #section-3{
@@ -79,6 +79,9 @@ a.links-contato{
 }
 
 @media (min-width:500px){
+.foto-dani{
+    align-self: center;
+}
 .nome-footer{
     text-align: center;
     padding-top: 0.8em;
@@ -88,6 +91,7 @@ a.links-contato{
   text-align: center;
   padding-bottom: 0.8em;
 }
+
 }
 
 
