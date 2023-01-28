@@ -68,15 +68,15 @@
    <h2 class="mt-5 form_tit pt-3">ENTRE EM CONTATO COMIGO</h2>
     <p class="fs-4">Use um dos meios abaixo para enviar sugestões, agendar consulta ou fazer alguma reclamação</p>
     <div class="row">
-<div class="col-6">
+<div class="col-sm-12 col-md-6">
     <?php
 dynamic_sidebar('contato'); ?>
 </div> 
-  <div class="col-6 mt-5">
-    <ul style="list-style-type:none;">
-      <li><a href=""><img src="http://localhost/dani-psico/wp-content/uploads/2023/01/logo-email.png" alt="email Danielle Machado"> e-mail</a>  </li>
-      <li><a href=""> <img src="http://localhost/dani-psico/wp-content/uploads/2023/01/logo-facebook.png" alt="facebook Danielle Machado"> Facebook</a></li>
-      <li><a href=""> <img src="http://localhost/dani-psico/wp-content/uploads/2023/01/logo-whatsapp.png" alt="whatsapp Danielle Machado"> Whatsapp</a></li>    
+  <div class="col-sm-12 col-md-6 mt-5">
+    <ul class="contato">
+      <li><a href="" class="links-contato"><img src="http://localhost/dani-psico/wp-content/uploads/2023/01/image-email.png" target="_blank" alt="email Danielle Machado"> E-mail</a>  </li>
+      <li><a href="https://www.facebook.com/espacogestalt" target="_blank" class="links-contato"> <img src="http://localhost/dani-psico/wp-content/uploads/2023/01/image-facebook.png" alt="facebook Danielle Machado"> Facebook</a></li>
+      <li><a href="https://wa.me/5541988416624?text=sua mensagem" target="_blank" class="links-contato"> <img src="http://localhost/dani-psico/wp-content/uploads/2023/01/image-whatsapp.png" alt="whatsapp Danielle Machado"> Whatsapp</a></li>    
   </ul>
   </div>
 </div>    
