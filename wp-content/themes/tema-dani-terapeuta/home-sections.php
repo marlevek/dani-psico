@@ -5,13 +5,15 @@
  
 <section id="section-1" class="home-section">
     <div class="container">
-   <div class="row justify-content-between">
-    <div class="col-6 mt-5">
-        <img src="http://localhost/dani-psico/wp-content/uploads/2023/01/foto-dani-circular.png" alt='foto Danielle Zagonel Machado' class="img-fluid">
+   <div class="row">
+    <div class="col-sm-12 col-md-6 mt-5">
+        <img src="http://localhost/dani-psico/wp-content/uploads/2023/01/foto-dani-circular.png" alt='foto Danielle Zagonel Machado' class="img-fluid foto-dani">
     </div>
-    <div class="col-6 mt-5">
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, quidem quod. Velit, delectus officia. Voluptate adipisci quaerat laboriosam voluptatem ea repudiandae aspernatur, qui vel doloribus at quisquam, iste assumenda quia!</h3>
+    <div class="col-sm-12 col-md-6 mt-5">
+        <p class="fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, quidem quod. Velit, delectus officia. Voluptate adipisci quaerat laboriosam voluptatem ea repudiandae aspernatur, qui vel doloribus at quisquam, iste assumenda quia!</p> 
+        <p class="fs-4">Voluptate adipisci quaerat laboriosam voluptatem ea repudiandae aspernatur, qui vel doloribus at quisquam, iste assumenda quia!</p>
     </div>
+ 
    </div>
 </div>
 </section>
@@ -62,7 +64,6 @@
 </div>
 </div>
 </section>
-
 <section id="section-3" class="home-section mt-5 pb-3">
    <div class="container">
    <h2 class="mt-5 form_tit pt-3">ENTRE EM CONTATO COMIGO</h2>
