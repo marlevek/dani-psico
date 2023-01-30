@@ -1,8 +1,7 @@
 <div class="wrapper">
 <main>
    <h4 class="text-center my-4">Transformando vidas: psicoterapia eficaz para superar desafios</h4>
-    <img src='http://localhost/dani-psico/wp-content/uploads/2023/01/imagem-hero-home-page.png' alt='imagem símbolo psicologia' class='img-fluid'>
- 
+    <img src='https://dani-terapias.000webhostapp.com/wp-content/uploads/2023/01/imagem-hero-home-page.png' alt='imagem símbolo psicologia' class='img-fluid'>
 <section id="section-1" class="home-section">
     <div class="container">
    <div class="row">
